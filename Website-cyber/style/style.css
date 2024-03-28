@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(../wave.svg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.form-container-parent {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-title {
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+label {
+  font-family: "poppins", sans-serif;
+}
+input {
+  padding: 10px;
+  width: 250px;
+  border: none;
+  border-bottom: 3px solid black;
+  outline: none;
+  font-family: sans-serif;
+  font-size: 1.5rem;
+}
+.label-username {
+  margin-left: -175px;
+  margin-bottom: -20px;
+}
+.par-login {
+  font-family: "poppins", sans-serif !important;
+}

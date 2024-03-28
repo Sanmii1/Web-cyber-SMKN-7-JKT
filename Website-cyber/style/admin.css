@@ -1,0 +1,21 @@
+body {
+  overflow: hidden;
+}
+.h2-admin-title {
+  font-family: "poppins", sans-serif;
+  text-align: center;
+  font-size: 2rem;
+}
+.h1-user {
+  font-family: "poppins", sans-serif;
+}
+.form-admin {
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 1);
+  border: 2px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
